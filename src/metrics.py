@@ -30,7 +30,7 @@ def weight(p, nbhd, kernel='rbf', sigma=None):
     if kernel == 'rbf':  # Gaussian
         w = np.exp(-dist ** 2 / (2 * sigma ** 2))
     elif kernel == 'cosine':
-        w = (X @ p) / np.linalg.norm(nbhd * p, axis=1)
+        w = (nbhd @ p) / np.linalg.norm(nbhd * p, axis=1)
     elif kernel == 'linear':
         w = np.maximum(1 - sigma * dist, 0)
     elif kernel == 'inverse':

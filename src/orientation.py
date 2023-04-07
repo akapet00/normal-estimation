@@ -16,7 +16,7 @@ def orient_normals_cvx(xyz, n):
     ----------
     xyz : numpy.ndarray
         The point cloud of shape (N, 3), N is the number of points.
-    n : numpy.ndsarray
+    n : numpy.ndarray
         The unit normals of shape (N, 3), where N is the number of
         points in the point cloud.
     
@@ -77,7 +77,6 @@ def _compute_kgraph(xyz, k):
     ----------
     xyz : numpy.ndarray
         The point cloud of shape (N, 3), N is the number of points.
-    n : numpy.ndsarray
     k : int
         Number of k nearest neighbors used in constructing the
         Riemannian graph used to propagate normal orientation.
@@ -98,7 +97,7 @@ def _compute_rmst(xyz, n, k, eps=1e-4):
     ----------
     xyz : numpy.ndarray
         The point cloud of shape (N, 3), N is the number of points.
-    n : numpy.ndsarray
+    n : numpy.ndarray
         The unit normals of shape (N, 3), where N is the number of
         points in the point cloud.
     k : int
