@@ -1,11 +1,55 @@
 import numpy as np
 
 
-__all__ = ['polyfit2d']
+__all__ = ['apply_weight', 'polyfit2d']
+
+
+def apply_weight(p, nbhd, kernel='rbf', gamma=None):
+    """Return scaling weights given distance between a targeted point
+    and its surrounding local neighborhood.
+    
+    p : numpy_ndarray
+        Targeted point of shape (3, ).
+    nbhd : numpy.ndarray
+        An array of shape (N, 3) representing the local neighborhood.
+    kernel : str, optional
+        The weighting function to use for MLS fitting. Possible options
+        include 'rbf', the Gaussian kernel, 'cosine', the cosine
+        similarity computed as the L2-normalized dot product,
+        'truncated', the truncated quadratic kernel, 'linear', the
+        linear kernel for weighting, 'inverse', the inverse kernel. If
+        not set, all weights will be set to 1.
+    gamma : float, optional
+        A scaling factor for the weighting function. If not given, it
+        is set to 1 / N where N is the total number of points in the
+        local neighborhood.
+        
+    Returns
+    -------
+    numpy.ndarray
+        Array with weights of (N, ).
+    """
+    dist = np.linalg.norm(nbhd - p, axis=1)  # squared Euclidian distance
+    if gamma is None:
+        gamma = 1.
+    if kernel == 'rbf':  # Gaussian
+        w = np.exp(-dist ** 2 / (2 * gamma ** 2))
+    elif kernel == 'cosine':
+        w = (nbhd @ p) / np.linalg.norm(nbhd * p, axis=1)
+    elif kernel == 'linear':
+        w = np.maximum(1 - gamma * dist, 0)
+    elif kernel == 'inverse':
+        w = 1 / dist
+    elif kernel == 'truncated':
+        w = np.maximum(1 - gamma * dist ** 2, 0)
+    else:
+        w = np.ones_like(dist)
+    return w
 
 
 def polyfit2d(x, y, z, deg=1, rcond=None, full_output=False):
     r"""Return the coefficients of a 2-D polynomial of a given degree.
+    This function is the 2-D adapted version of `numpy.polyfit`.
     
     Note. The fitting assumes that the variable `z` corresponds the
     values of the "height" function such as z = f(x, y). The fitting is

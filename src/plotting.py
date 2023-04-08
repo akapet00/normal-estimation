@@ -66,7 +66,7 @@ def _encode_normals_rgb(n):
     return rgb / 255.0
 
 
-def show_point_cloud(xyz, n=None, elev=0, azim=0, **kwargs):
+def show_point_cloud(xyz, n=None, c=None, elev=0, azim=0, **kwargs):
     """Show and return 3-D subplot of a given point cloud. Colorization
     is performed by converting normals to corresponding RGB values
     by mapping them considering the RGB cube.
@@ -79,6 +79,11 @@ def show_point_cloud(xyz, n=None, elev=0, azim=0, **kwargs):
         The unit normals of shape (N, 3), where N is the number of
         points in the point cloud. If not given, point cloud will be
         colorized considering the values of the x-axis.
+    c : str or numpy.ndarray or list, optional
+        If `n` is not defined, `c` is used for the coloring of markers.
+        Otherwise, setting `c` has no effect. If it is given as
+        `numpy.ndarray` or `list`, a colorbar will automatically be
+        generated.
     elev : float, optional
         The elevation angle in degrees rotates the camera above the
         plane of the vertical axis, with a positive angle corresponding
@@ -95,13 +100,31 @@ def show_point_cloud(xyz, n=None, elev=0, azim=0, **kwargs):
     tuple
         Figure and a 3-D subplot within.
     """
-    if n is not None:
+    cbar = None
+    if (n is not None) and (c is None):
         c = _encode_normals_rgb(n)
-    else:
+        alpha = 1
+    elif (n is not None) and (c is not None):
+        print('`n` and `c` are mutually exclusive. '
+              '`n` is used for colorization.')
+        c = _encode_normals_rgb(n)
+        alpha = 1
+    elif c is None:
         c = xyz[:, 0].flatten()
+        alpha = 0.05
+    elif isinstance(c, (np.ndarray, list)):
+        cbar = True
+        alpha = 0.1
+    elif isinstance(c, str):
+        alpha = 0.05
+    else:
+        raise ValueError('`c` is not defined properly.') 
     fig = plt.figure(figsize=(5, 5))
     ax = plt.axes(projection ='3d')
-    ax.scatter(xyz[:, 0], xyz[:, 1], xyz[:, 2], s=0.25, c=c, **kwargs)
+    s = ax.scatter(*xyz.T, s=0.25, c=c, alpha=alpha, **kwargs)
+    if cbar:
+        cbar = fig.colorbar(s, ax=ax, pad=0, shrink=0.5)
+        cbar.solids.set(alpha=1)
     ax.set_box_aspect([1, 1, 1])
     ax = _set_axes_equal(ax)
     ax.axis('off')
