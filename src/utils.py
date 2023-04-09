@@ -32,16 +32,22 @@ def apply_weight(p, nbhd, kernel='rbf', gamma=None):
     dist = np.linalg.norm(nbhd - p, axis=1)  # squared Euclidian distance
     if gamma is None:
         gamma = 1.
-    if kernel == 'rbf':  # Gaussian
-        w = np.exp(-dist ** 2 / (2 * gamma ** 2))
-    elif kernel == 'cosine':
-        w = (nbhd @ p) / np.linalg.norm(nbhd * p, axis=1)
-    elif kernel == 'linear':
+    if kernel == 'linear':
         w = np.maximum(1 - gamma * dist, 0)
     elif kernel == 'inverse':
         w = 1 / dist
     elif kernel == 'truncated':
         w = np.maximum(1 - gamma * dist ** 2, 0)
+    elif kernel == 'gaussian':
+        w = np.exp(-(gamma * dist) ** 2)
+    elif kernel == 'thin_plate_spline':
+        w = dist ** 2 * np.log(dist)
+    elif kernel == 'inverse_multiquadratic':
+        w = 1 / np.sqrt((gamma * dist) ** 2 + 1)
+    elif kernel == 'rbf':
+        w = np.exp(-dist ** 2 / (2 * gamma ** 2))
+    elif kernel == 'cosine':
+        w = (nbhd @ p) / np.linalg.norm(nbhd * p, axis=1)
     else:
         w = np.ones_like(dist)
     return w
