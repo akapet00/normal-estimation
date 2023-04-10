@@ -55,8 +55,8 @@ def estimate_normals_pca(xyz, k, kernel=None, **kwargs):
         
         # extract an eigenvector with smallest associeted eigenvalue
         X = nbhd.copy()
-        X = X - X.mean(axis=0)
-        C = (X.T @ (W @ X)) / (nbhd.shape[0] - 1)
+        X = X - np.average(X, weights=w, axis=0)
+        C = (X.T @ (W @ X)) / np.sum(w)
         U, S, VT = np.linalg.svd(C)
         n[i, :] =  U[:, np.argmin(S)]
     return n
