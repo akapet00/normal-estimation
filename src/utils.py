@@ -4,7 +4,7 @@ import numpy as np
 __all__ = ['apply_weight', 'polyfit2d']
 
 
-def apply_weight(p, nbhd, kernel='rbf', gamma=None):
+def apply_weight(p, nbhd, kernel='linear', gamma=None):
     """Return scaling weights given distance between a targeted point
     and its surrounding local neighborhood.
     
@@ -13,16 +13,11 @@ def apply_weight(p, nbhd, kernel='rbf', gamma=None):
     nbhd : numpy.ndarray
         An array of shape (N, 3) representing the local neighborhood.
     kernel : str, optional
-        The weighting function to use for MLS fitting. Possible options
-        include 'rbf', the Gaussian kernel, 'cosine', the cosine
-        similarity computed as the L2-normalized dot product,
-        'truncated', the truncated quadratic kernel, 'linear', the
-        linear kernel for weighting, 'inverse', the inverse kernel. If
-        not set, all weights will be set to 1.
+        The weighting function to use for MLS fitting. If not set, all
+        weights will be set to 1.
     gamma : float, optional
         A scaling factor for the weighting function. If not given, it
-        is set to 1 / N where N is the total number of points in the
-        local neighborhood.
+        is set to 1.
         
     Returns
     -------
@@ -34,22 +29,24 @@ def apply_weight(p, nbhd, kernel='rbf', gamma=None):
         gamma = 1.
     if kernel == 'linear':
         w = np.maximum(1 - gamma * dist, 0)
-    elif kernel == 'inverse':
-        w = 1 / dist
     elif kernel == 'truncated':
         w = np.maximum(1 - gamma * dist ** 2, 0)
+    elif kernel == 'inverse':
+        w = 1 / (dist + 1e12) ** gamma
     elif kernel == 'gaussian':
         w = np.exp(-(gamma * dist) ** 2)
+    elif kernel == 'multiquadric':
+        w = np.sqrt(1 + (gamma * dist) ** 2)
+    elif kernel == 'inverse_quadric':
+        w = 1 / (1 + (gamma * dist) ** 2)
+    elif kernel == 'inverse_multiquadric':
+        w = 1 / np.sqrt(1 + (gamma * dist) ** 2 )
     elif kernel == 'thin_plate_spline':
         w = dist ** 2 * np.log(dist)
-    elif kernel == 'inverse_multiquadratic':
-        w = 1 / np.sqrt((gamma * dist) ** 2 + 1)
     elif kernel == 'rbf':
         w = np.exp(-dist ** 2 / (2 * gamma ** 2))
     elif kernel == 'cosine':
         w = (nbhd @ p) / np.linalg.norm(nbhd * p, axis=1)
-    else:
-        w = np.ones_like(dist)
     return w
 
 
