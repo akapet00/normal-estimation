@@ -8,6 +8,8 @@ def apply_weight(p, nbhd, kernel='linear', gamma=None):
     """Return scaling weights given distance between a targeted point
     and its surrounding local neighborhood.
     
+    Parameters
+    ----------
     p : numpy_ndarray
         Targeted point of shape (3, ).
     nbhd : numpy.ndarray

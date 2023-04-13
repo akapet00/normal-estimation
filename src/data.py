@@ -7,7 +7,7 @@ __all__ = ['load_point_cloud']
 
 
 def load_point_cloud(fname, unit=True):
-    """Orient the normals in the outward direction.
+    """Load targeted PCPNet dataset.
     
     Parameters
     ----------
