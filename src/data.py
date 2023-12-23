@@ -22,7 +22,7 @@ def load_point_cloud(fname, unit=True):
         Coordinates and corresponding unit normals.
     """
     fname = fname.lower()
-    path = os.path.join('data', f'{fname}100k')
+    path = os.path.join('data', f'{fname}')
     try:
         xyz = np.genfromtxt(f'{path}.xyz', delimiter=' ')
         n = np.genfromtxt(f'{path}.normals', delimiter=' ')
