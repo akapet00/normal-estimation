@@ -34,7 +34,7 @@ def apply_weight(p, nbhd, kernel='linear', gamma=None):
     elif kernel == 'truncated':
         w = np.maximum(1 - gamma * dist ** 2, 0)
     elif kernel == 'inverse':
-        w = 1 / (dist + 1e12) ** gamma
+        w = 1 / (dist + 1e-12) ** gamma
     elif kernel == 'gaussian':
         w = np.exp(-(gamma * dist) ** 2)
     elif kernel == 'multiquadric':
