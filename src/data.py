@@ -21,7 +21,6 @@ def load_point_cloud(fname, unit=True):
     tuple
         Coordinates and corresponding unit normals.
     """
-    fname = fname.lower()
     path = os.path.join('data', f'{fname}')
     try:
         xyz = np.genfromtxt(f'{path}.xyz', delimiter=' ')
