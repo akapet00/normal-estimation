@@ -1,0 +1,7 @@
+,class,params,mean_test_score
+138,gradient,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",-6.450298858620868
+103,high_noise,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",-34.93580289831129
+104,low_noise,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",-11.715841626721446
+255,med_noise,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",-25.44999252654119
+130,no_noise,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",-6.4854613273524855
+131,striped,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",-6.414900105728345
