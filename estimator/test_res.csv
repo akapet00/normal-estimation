@@ -1,109 +1,109 @@
-,class,dataset,params,score
-0,no_noise,galera100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",8.258374405197891
-1,no_noise,icosahedron100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",3.184624082269895
-2,no_noise,netsuke100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.518082736943839
-3,no_noise,Cup34100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",7.148995604809234
-4,no_noise,sphere100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",0.6112363342944175
-5,no_noise,cylinder100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.364435495540459
-6,no_noise,star_smooth100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",3.741229081434399
-7,no_noise,star_halfsmooth100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.351455663596271
-8,no_noise,star_sharp100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",11.391644392955977
-9,no_noise,Liberty100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",11.651315411815597
-10,no_noise,boxunion2100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",9.233359581787768
-11,no_noise,pipe100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.4927828852742495
-12,no_noise,pipe_curve100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.905401882748353
-13,no_noise,column100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",24.310023912995653
-14,no_noise,column_head100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",24.04670758196764
-15,no_noise,Boxy_smooth100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",2.364384745762987
-16,no_noise,sphere_analytic100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",0.0013580475455631802
-17,no_noise,cylinder_analytic100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",0.012053988989103932
-18,no_noise,sheet_analytic100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",1.1998846775212306
-0,low_noise,galera100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",11.998299792187115
-1,low_noise,icosahedron100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",5.053621774449609
-2,low_noise,netsuke100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",11.561128091445061
-3,low_noise,Cup34100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",14.431353392932422
-4,low_noise,sphere100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",2.5617762804352515
-5,low_noise,cylinder100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",5.880360544385075
-6,low_noise,star_smooth100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",5.334309321226375
-7,low_noise,star_halfsmooth100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",8.700483834272644
-8,low_noise,star_sharp100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",13.897952112313138
-9,low_noise,Liberty100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",20.49045053718255
-10,low_noise,boxunion2100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",11.854169191174027
-11,low_noise,pipe100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",6.5767465997049905
-12,low_noise,pipe_curve100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",6.507838393686594
-13,low_noise,column100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",21.905535304780834
-14,low_noise,column_head100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",26.162888328010556
-15,low_noise,Boxy_smooth100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",4.485596809503513
-16,low_noise,sphere_analytic100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",2.4266771920644987
-17,low_noise,cylinder_analytic100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",3.4052772964801146
-18,low_noise,sheet_analytic100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",32.675800162235305
-0,med_noise,galera100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",19.922336137578196
-1,med_noise,icosahedron100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",12.442139623177614
-2,med_noise,netsuke100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",20.663111099839185
-3,med_noise,Cup34100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",16.753848334762395
-4,med_noise,sphere100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",10.472517622774662
-5,med_noise,cylinder100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",12.439826546200887
-6,med_noise,star_smooth100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",14.068184239663127
-7,med_noise,star_halfsmooth100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",18.414907009629935
-8,med_noise,star_sharp100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",24.162757760218195
-9,med_noise,Liberty100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",31.93760400896307
-10,med_noise,boxunion2100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",21.073151423949113
-11,med_noise,pipe100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",16.019191003814
-12,med_noise,pipe_curve100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",17.296581851794883
-13,med_noise,column100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",34.933731712074504
-14,med_noise,column_head100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",29.12037370140462
-15,med_noise,Boxy_smooth100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",16.40696838712077
-16,med_noise,sphere_analytic100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",10.499532169372435
-17,med_noise,cylinder_analytic100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",13.50908799064686
-18,med_noise,sheet_analytic100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",34.40462573159679
-0,high_noise,galera100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",27.5082055545793
-1,high_noise,icosahedron100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",18.67045452989491
-2,high_noise,netsuke100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",27.379685390719928
-3,high_noise,Cup34100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",23.214764774930803
-4,high_noise,sphere100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",16.065553639232174
-5,high_noise,cylinder100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",18.777574946995625
-6,high_noise,star_smooth100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",21.753481398799618
-7,high_noise,star_halfsmooth100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",27.037424999334952
-8,high_noise,star_sharp100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",32.98987927828225
-9,high_noise,Liberty100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",39.091267479756915
-10,high_noise,boxunion2100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",29.659921941124615
-11,high_noise,pipe100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",31.052869105629746
-12,high_noise,pipe_curve100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",29.6549381239156
-13,high_noise,column100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",42.36305577925802
-14,high_noise,column_head100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",33.48196071935349
-15,high_noise,Boxy_smooth100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",26.862288964304316
-16,high_noise,sphere_analytic100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",15.94261944456132
-17,high_noise,cylinder_analytic100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",20.775465071240685
-18,high_noise,sheet_analytic100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",44.882358592971144
-0,gradient,galera100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",7.54875699444016
-1,gradient,icosahedron100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",2.8693500098056703
-2,gradient,netsuke100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",6.120901109354032
-3,gradient,Cup34100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",7.145547771890677
-4,gradient,sphere100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",0.5256961210851248
-5,gradient,cylinder100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",3.9862114480363897
-6,gradient,star_smooth100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",3.5993660776807053
-7,gradient,star_halfsmooth100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",6.399009599534612
-8,gradient,star_sharp100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",11.84316575781073
-9,gradient,Liberty100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",10.681900994266655
-10,gradient,boxunion2100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",8.87951395337771
-11,gradient,pipe100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",4.962458494598044
-12,gradient,pipe_curve100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",6.101951126410764
-13,gradient,column100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",18.90042982465534
-14,gradient,column_head100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",23.037147530284436
-15,gradient,Boxy_smooth100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",2.4566366582632395
-0,striped,galera100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",7.945842248077078
-1,striped,icosahedron100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",3.0528589946771376
-2,striped,netsuke100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.559602591397938
-3,striped,Cup34100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.915464506423354
-4,striped,sphere100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",0.59575849139635
-5,striped,cylinder100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.631345634880248
-6,striped,star_smooth100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",3.6258773294108364
-7,striped,star_halfsmooth100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.2981904099908474
-8,striped,star_sharp100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",10.973526156773227
-9,striped,Liberty100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",11.391873193817451
-10,striped,boxunion2100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",9.111016788432002
-11,striped,pipe100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.741155949534964
-12,striped,pipe_curve100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.650800901135151
-13,striped,column100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",22.510935239873145
-14,striped,column_head100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",22.522017949134035
-15,striped,Boxy_smooth100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",2.5476970107534638
+,class,dataset,params,rmse,pgp
+0,no_noise,galera100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",8.258374405197891,[0.      0.57672 0.86286 0.94584 0.97369 0.98481 0.99001]
+1,no_noise,icosahedron100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",3.184624082269895,[0.      0.94386 0.96844 0.98365 0.99555 0.99964 0.99993]
+2,no_noise,netsuke100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.518082736943839,[0.      0.69052 0.90893 0.96957 0.98795 0.99351 0.99599]
+3,no_noise,Cup34100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",7.148995604809234,[0.      0.89771 0.95019 0.96846 0.9761  0.98032 0.98421]
+4,no_noise,sphere100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",0.6112363342944175,[0. 1. 1. 1. 1. 1. 1.]
+5,no_noise,cylinder100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.364435495540459,[0.      0.96    0.97173 0.98102 0.98674 0.9908  0.99337]
+6,no_noise,star_smooth100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",3.741229081434399,[0.      0.8556  0.98356 0.99653 0.99919 0.99982 0.99991]
+7,no_noise,star_halfsmooth100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.351455663596271,[0.      0.8034  0.92716 0.9586  0.97636 0.98829 0.99429]
+8,no_noise,star_sharp100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",11.391644392955977,[0.      0.6698  0.79713 0.86311 0.90857 0.94093 0.96204]
+9,no_noise,Liberty100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",11.651315411815597,[0.      0.52979 0.73113 0.84476 0.91064 0.94807 0.9702 ]
+10,no_noise,boxunion2100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",9.233359581787768,[0.      0.83154 0.8786  0.91486 0.94042 0.95765 0.97015]
+11,no_noise,pipe100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.4927828852742495,[0.      0.95994 0.9715  0.98058 0.98669 0.99084 0.9936 ]
+12,no_noise,pipe_curve100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.905401882748353,[0.      0.96032 0.97437 0.9817  0.98658 0.9901  0.99276]
+13,no_noise,column100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",24.310023912995653,[0.      0.31195 0.53974 0.64402 0.69921 0.74795 0.79214]
+14,no_noise,column_head100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",24.04670758196764,[0.      0.41536 0.52993 0.61539 0.68476 0.74301 0.79303]
+15,no_noise,Boxy_smooth100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",2.364384745762987,[0.      0.9371  0.9874  0.99927 0.9999  0.99998 1.     ]
+16,no_noise,sphere_analytic100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",0.0013580475455631802,[0. 1. 1. 1. 1. 1. 1.]
+17,no_noise,cylinder_analytic100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",0.012053988989103932,[0. 1. 1. 1. 1. 1. 1.]
+18,no_noise,sheet_analytic100k,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",1.1998846775212306,[0.      0.98608 0.99839 0.99973 0.9999  0.99997 0.99999]
+0,low_noise,galera100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",11.998299792187115,[0.      0.3724  0.70421 0.84865 0.91373 0.94931 0.97038]
+1,low_noise,icosahedron100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",5.053621774449609,[0.      0.87608 0.9356  0.96499 0.98948 0.99846 0.9998 ]
+2,low_noise,netsuke100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",11.561128091445061,[0.      0.37311 0.6889  0.84052 0.91912 0.95842 0.97857]
+3,low_noise,Cup34100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",14.431353392932422,[0.      0.67855 0.77628 0.82571 0.86105 0.89039 0.91674]
+4,low_noise,sphere100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",2.5617762804352515,[0.      0.97621 1.      1.      1.      1.      1.     ]
+5,low_noise,cylinder100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",5.880360544385075,[0.      0.92539 0.96194 0.97524 0.9797  0.98342 0.98742]
+6,low_noise,star_smooth100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",5.334309321226375,[0.      0.68467 0.95989 0.99091 0.99622 0.99805 0.99895]
+7,low_noise,star_halfsmooth100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",8.700483834272644,[0.      0.57761 0.87091 0.92972 0.95717 0.97489 0.9855 ]
+8,low_noise,star_sharp100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",13.897952112313138,[0.      0.41184 0.68572 0.78266 0.85131 0.90572 0.94177]
+9,low_noise,Liberty100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",20.49045053718255,[0.      0.19937 0.42872 0.58037 0.69165 0.78163 0.85275]
+10,low_noise,boxunion2100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",11.854169191174027,[0.      0.71973 0.8459  0.88763 0.90855 0.92568 0.9435 ]
+11,low_noise,pipe100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",6.5767465997049905,[0.      0.83258 0.96293 0.97385 0.97851 0.98239 0.98616]
+12,low_noise,pipe_curve100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",6.507838393686594,[0.      0.82752 0.95901 0.96992 0.97639 0.98258 0.98786]
+13,low_noise,column100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",21.905535304780834,[0.      0.18109 0.41511 0.58783 0.7083  0.79691 0.85676]
+14,low_noise,column_head100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",26.162888328010556,[0.      0.28941 0.41887 0.52405 0.61409 0.69572 0.76326]
+15,low_noise,Boxy_smooth100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",4.485596809503513,[0.      0.84299 0.9614  0.98744 0.99666 0.99928 0.99992]
+16,low_noise,sphere_analytic100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",2.4266771920644987,[0.      0.98413 1.      1.      1.      1.      1.     ]
+17,low_noise,cylinder_analytic100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",3.4052772964801146,[0.      0.88338 0.99968 1.      1.      1.      1.     ]
+18,low_noise,sheet_analytic100k_noise_white_1.00e-02,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",32.675800162235305,[0.      0.03547 0.12819 0.25342 0.38788 0.51631 0.62922]
+0,med_noise,galera100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",19.922336137578196,[0.      0.11662 0.35031 0.56802 0.72235 0.82384 0.88624]
+1,med_noise,icosahedron100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",12.442139623177614,[0.      0.17527 0.52942 0.79654 0.92372 0.96892 0.9847 ]
+2,med_noise,netsuke100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",20.663111099839185,[0.      0.089   0.28836 0.50617 0.67936 0.79855 0.87479]
+3,med_noise,Cup34100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",16.753848334762395,[0.      0.19966 0.53285 0.74415 0.84613 0.89989 0.93175]
+4,med_noise,sphere100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",10.472517622774662,[0.      0.2126  0.60338 0.87043 0.97152 0.99593 0.99969]
+5,med_noise,cylinder100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",12.439826546200887,[0.      0.24175 0.65184 0.87785 0.94779 0.96552 0.9736 ]
+6,med_noise,star_smooth100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",14.068184239663127,[0.      0.14556 0.44481 0.71534 0.87617 0.95015 0.97863]
+7,med_noise,star_halfsmooth100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",18.414907009629935,[0.      0.10771 0.34957 0.59616 0.76947 0.86652 0.91856]
+8,med_noise,star_sharp100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",24.162757760218195,[0.      0.06628 0.24029 0.44142 0.61071 0.73386 0.81406]
+9,med_noise,Liberty100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",31.93760400896307,[0.      0.04242 0.1412  0.26779 0.39973 0.52103 0.62623]
+10,med_noise,boxunion2100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",21.073151423949113,[0.      0.13048 0.40561 0.6417  0.77451 0.84067 0.87876]
+11,med_noise,pipe100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",16.019191003814,[0.      0.14    0.43991 0.71114 0.87028 0.93718 0.96183]
+12,med_noise,pipe_curve100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",17.296581851794883,[0.      0.14999 0.4414  0.69618 0.84131 0.90896 0.93956]
+13,med_noise,column100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",34.933731712074504,[0.      0.03509 0.12476 0.24153 0.36065 0.47585 0.57711]
+14,med_noise,column_head100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",29.12037370140462,[0.      0.10825 0.30349 0.45546 0.56768 0.65667 0.72811]
+15,med_noise,Boxy_smooth100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",16.40696838712077,[0.      0.12285 0.39459 0.6573  0.82238 0.9065  0.94582]
+16,med_noise,sphere_analytic100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",10.499532169372435,[0.      0.21209 0.60258 0.86824 0.97087 0.99564 0.99954]
+17,med_noise,cylinder_analytic100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",13.50908799064686,[0.      0.13395 0.42988 0.71137 0.88636 0.96504 0.99162]
+18,med_noise,sheet_analytic100k_noise_white_5.00e-02,"{'gamma': 3, 'k': 100, 'kernel': 'rbf', 's': None}",34.40462573159679,[0.      0.03086 0.11627 0.23659 0.36894 0.49642 0.60762]
+0,high_noise,galera100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",27.5082055545793,[0.      0.06084 0.20068 0.36309 0.51546 0.64341 0.74216]
+1,high_noise,icosahedron100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",18.67045452989491,[0.      0.07272 0.25712 0.4871  0.69835 0.84424 0.92136]
+2,high_noise,netsuke100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",27.379685390719928,[0.      0.0465  0.16268 0.31557 0.47239 0.61227 0.72663]
+3,high_noise,Cup34100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",23.214764774930803,[0.      0.09278 0.2964  0.50521 0.66831 0.77962 0.85121]
+4,high_noise,sphere100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",16.065553639232174,[0.      0.10216 0.33821 0.59445 0.78862 0.90633 0.96415]
+5,high_noise,cylinder100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",18.777574946995625,[0.      0.09814 0.3298  0.58277 0.77332 0.88401 0.93591]
+6,high_noise,star_smooth100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",21.753481398799618,[0.      0.06869 0.23088 0.42994 0.61754 0.76212 0.85566]
+7,high_noise,star_halfsmooth100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",27.037424999334952,[0.      0.05203 0.18203 0.35066 0.51035 0.64288 0.74256]
+8,high_noise,star_sharp100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",32.98987927828225,[0.      0.03163 0.12181 0.24325 0.37433 0.49781 0.6033 ]
+9,high_noise,Liberty100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",39.091267479756915,[0.      0.02361 0.08584 0.16978 0.26695 0.36738 0.46963]
+10,high_noise,boxunion2100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",29.659921941124615,[0.      0.05164 0.18585 0.36175 0.52883 0.66073 0.75128]
+11,high_noise,pipe100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",31.052869105629746,[0.      0.05165 0.183   0.35084 0.50939 0.63996 0.73264]
+12,high_noise,pipe_curve100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",29.6549381239156,[0.      0.05901 0.19654 0.35849 0.51167 0.63513 0.72736]
+13,high_noise,column100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",42.36305577925802,[0.      0.01965 0.07173 0.14472 0.23025 0.32286 0.4159 ]
+14,high_noise,column_head100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",33.48196071935349,[0.      0.0532  0.18068 0.32946 0.46233 0.56645 0.6506 ]
+15,high_noise,Boxy_smooth100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",26.862288964304316,[0.      0.05107 0.18283 0.35665 0.52615 0.66709 0.77088]
+16,high_noise,sphere_analytic100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",15.94261944456132,[0.      0.10356 0.34109 0.5965  0.7928  0.91071 0.96697]
+17,high_noise,cylinder_analytic100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",20.775465071240685,[0.      0.06727 0.23237 0.43473 0.62565 0.77421 0.87422]
+18,high_noise,sheet_analytic100k_noise_white_1.00e-01,"{'gamma': 1, 'k': 100, 'kernel': 'inverse_multiquadric', 's': None}",44.882358592971144,[0.      0.01635 0.06484 0.13541 0.22103 0.31243 0.40312]
+0,gradient,galera100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",7.54875699444016,[0.      0.65814 0.89816 0.95746 0.97731 0.98613 0.99113]
+1,gradient,icosahedron100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",2.8693500098056703,[0.      0.95518 0.97481 0.98631 0.99644 0.99961 0.99992]
+2,gradient,netsuke100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",6.120901109354032,[0.      0.75136 0.92457 0.97059 0.98653 0.99275 0.99579]
+3,gradient,Cup34100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",7.145547771890677,[0.      0.90725 0.95697 0.97195 0.97687 0.98037 0.98334]
+4,gradient,sphere100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",0.5256961210851248,[0. 1. 1. 1. 1. 1. 1.]
+5,gradient,cylinder100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",3.9862114480363897,[0.      0.96615 0.97622 0.9837  0.98902 0.99243 0.99459]
+6,gradient,star_smooth100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",3.5993660776807053,[0.      0.87708 0.98512 0.99598 0.99841 0.99932 0.99958]
+7,gradient,star_halfsmooth100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",6.399009599534612,[0.      0.81822 0.92945 0.95771 0.97587 0.98734 0.99306]
+8,gradient,star_sharp100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",11.84316575781073,[0.      0.68052 0.7933  0.85707 0.90293 0.93511 0.95716]
+9,gradient,Liberty100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",10.681900994266655,[0.      0.64898 0.80017 0.87993 0.92607 0.95373 0.97087]
+10,gradient,boxunion2100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",8.87951395337771,[0.      0.84315 0.88824 0.92232 0.94616 0.96198 0.97315]
+11,gradient,pipe100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",4.962458494598044,[0.      0.9566  0.96832 0.97812 0.98448 0.98872 0.99188]
+12,gradient,pipe_curve100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",6.101951126410764,[0.      0.94274 0.96254 0.97179 0.97855 0.98391 0.98841]
+13,gradient,column100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",18.90042982465534,[0.      0.52273 0.68822 0.76208 0.80527 0.84217 0.87596]
+14,gradient,column_head100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",23.037147530284436,[0.      0.44145 0.55834 0.64317 0.70999 0.76475 0.81194]
+15,gradient,Boxy_smooth100k_ddist_minmax,"{'gamma': 1, 'k': 30, 'kernel': 'rbf', 's': 0}",2.4566366582632395,[0.      0.93525 0.98568 0.99847 0.99982 0.99997 0.99999]
+0,striped,galera100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",7.945842248077078,[0.      0.61841 0.87644 0.94872 0.97375 0.9848  0.99065]
+1,striped,icosahedron100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",3.0528589946771376,[0.      0.94913 0.97232 0.98536 0.99574 0.99922 0.99974]
+2,striped,netsuke100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.559602591397938,[0.      0.71117 0.90852 0.96689 0.98554 0.99232 0.99541]
+3,striped,Cup34100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.915464506423354,[0.      0.90696 0.95573 0.97267 0.97928 0.98307 0.98596]
+4,striped,sphere100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",0.59575849139635,[0.      0.99997 1.      1.      1.      1.      1.     ]
+5,striped,cylinder100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.631345634880248,[0.      0.95817 0.97028 0.97945 0.98565 0.9899  0.99264]
+6,striped,star_smooth100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",3.6258773294108364,[0.      0.87159 0.98666 0.99716 0.99887 0.99935 0.99958]
+7,striped,star_halfsmooth100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",6.2981904099908474,[0.      0.81556 0.93336 0.96088 0.97767 0.98826 0.99383]
+8,striped,star_sharp100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",10.973526156773227,[0.      0.69114 0.81193 0.87406 0.91712 0.94616 0.96552]
+9,striped,Liberty100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",11.391873193817451,[0.      0.59415 0.76844 0.86352 0.91713 0.94868 0.96819]
+10,striped,boxunion2100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",9.111016788432002,[0.      0.83912 0.88308 0.9177  0.94221 0.95891 0.97085]
+11,striped,pipe100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.741155949534964,[0.      0.96093 0.97265 0.9805  0.98631 0.99025 0.99291]
+12,striped,pipe_curve100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",4.650800901135151,[0.      0.96354 0.97736 0.98367 0.98827 0.99163 0.99402]
+13,striped,column100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",22.510935239873145,[0.      0.38981 0.59807 0.69009 0.74187 0.78696 0.82593]
+14,striped,column_head100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",22.522017949134035,[0.      0.48223 0.58838 0.66638 0.72818 0.77885 0.82215]
+15,striped,Boxy_smooth100k_ddist_minmax_layers,"{'gamma': 1, 'k': 30, 'kernel': 'gaussian', 's': None}",2.5476970107534638,[0.      0.93389 0.98517 0.99849 0.99961 0.99974 0.99984]
